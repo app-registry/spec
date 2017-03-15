@@ -18,4 +18,5 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ### Sections
 
-TODO(jzelinskie): write this
+1. The [HTTP Core](spec/core.md) defines the core API routes required for implementing a CNR server.
+2. The optional [URI Discovery](spec/discovery.md) defines a method for shortening CNR server URIs provided as arguments to CNR clients.
