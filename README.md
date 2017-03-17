@@ -39,7 +39,8 @@ For information on governance and contribution policies, see [POLICY.md](POLICY.
 
 ## Who is using the spec?
 
-* [Quay](https://quay.io) is a commercial registry product from CoreOS that implements an early prototype of the CNR specification.
+* [Quay](https://quay.io) is a commercial registry product from CoreOS that implements an early prototype of the CNR server.
+* The [Helm Registry Plugin](https://github.com/cn-app-registry/cnr-cli) implements an early protoype of the CNR client.
 
 Want to get added to this list?
 [Open a Pull Request!](https://github.com/cn-app-registry/spec/edit/master/README.md)
