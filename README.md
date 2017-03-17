@@ -32,31 +32,25 @@ Examples of artifacts include:
 
 TODO(jzelinskie): write this section
 
-## Who is using the spec?
-
-TODO(jzelinskie): write this section
-
-## What are some of the implementations of the spec?
-
-### Server
-
-#### Reference Implementations:
-
-* [cnr-server](https://github.com/cn-app-registry/cnr-server) - open source Python implementation of a CNR server supporting storage via redis, etcd, or local filesystem.
-
-#### Third Party Implementations:
-
-* [Quay](https://quay.io) - commercial registry product from CoreOS (Python/Closed Source)
-
-### Client
-
-#### Reference Implementations:
-
-* [cnr-python-cli](https://github.com/cn-app-registry/cnr-python-cli) - open source Python implementation of a CNR client
-* [cnr-go-lib](https://github.com/cn-app-registry/cnr-go-lib) - open source Go implementation for a CNR client.
-
-
 ## Who controls the spec?
 
 CNR is an open-source, community-driven project, developed under the Apache 2.0 license.
 For information on governance and contribution policies, see [POLICY.md](POLICY.md)
+
+## Who is using the spec?
+
+* [Quay](https://quay.io) is a commercial registry product from CoreOS that implements an early prototype of the CNR specification.
+
+Want to get added to this list?
+[Open a Pull Request!](https://github.com/cn-app-registry/spec/edit/master/README.md)
+
+## What are some of the implementations of the spec?
+
+#### Reference Implementations:
+
+* [cnr-server](https://github.com/cn-app-registry/cnr-server) - open source Python implementation of a CNR server backed by redis, etcd, or a local filesystem.
+* [cnr-cli](https://github.com/cn-app-registry/cnr-cli) - open source Python implementation of a CNR client
+
+#### Third-Party Implementations:
+
+TODO(jzelinskie): write this section
