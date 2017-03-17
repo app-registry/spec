@@ -49,7 +49,7 @@ Want to get added to this list?
 
 #### Reference Implementations:
 
-* [cnr-server](https://github.com/cn-app-registry/cnr-server) - open source Python implementation of a CNR server backed by redis, etcd, or a local filesystem.
+* [cnr-server](https://github.com/cn-app-registry/cnr-server) - open source Python implementation of a CNR server backed by [redis](https://redis.io/), [etcd](https://github.com/coreos/etcd), or a local filesystem.
 * [cnr-cli](https://github.com/cn-app-registry/cnr-cli) - open source Python implementation of a CNR client
 
 #### Third-Party Implementations:
