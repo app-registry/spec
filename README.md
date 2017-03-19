@@ -13,14 +13,14 @@ See [SPEC.md](SPEC.md) for details of the specification itself.
 
 ## What is the CNR spec?
 
-Container Native Registry (CNR) is a well-specified and community developed specification for the distribution of configuration artifacts for containerized applications.
+Container Native Registry (CNR) is a well-specified and community developed specification for the distribution of declarative configuration artifacts for containerized applications.
 The core of CNR is an HTTP API specification defining the process for common operations such as search, upload, and download.
 
-#### What is a containerized application configuration artifact?
+#### What is a declarative application configuration (DAC)?
 
 TODO(jzelinskie): write this section
 
-Examples of artifacts include:
+Examples of DAC formats include:
 
 * [Kubernetes Object Files](https://kubernetes.io/docs/concepts/abstractions/overview/)
 * [Helm Charts](https://github.com/kubernetes/helm/blob/master/docs/charts.md)
