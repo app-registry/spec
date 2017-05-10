@@ -28,19 +28,18 @@ const (
 	ManifestMimeType = "application/vnd.appr.manifest.v0+json"
 )
 
-// Release represents an immutable state of application that has been assigned
-// a version.
-type Release struct {
+// Tag represents user-facing metadata associated with a Manifest.
+type Tag struct {
+	Name       string `json:"name"`
 	Namespace  string `json:"namespace"`
 	Repository string `json:"repository"`
-	Platform   string `json:"platform"`
-	Version    string `json:"version"`
 }
 
-// Channel represents the head of a stream of Releases.
-type Channel struct {
-	Name string `json:"name"`
-	Release
+// MutableTag represents user-facing metadata is associated with a Manifest
+// that can be mutated.
+type MutableTag struct {
+	Name   string `json:"name"`   // The name of the channel.
+	Latest Tag    `json:"latest"` // The latest release in the channel.
 }
 
 // SHA256Digest is a SHA256 digest of an application artifact.
