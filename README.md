@@ -23,7 +23,7 @@ TODO(jzelinskie): write this section
 Examples of DAC formats include:
 
 * [Kubernetes Object Files](https://kubernetes.io/docs/concepts/abstractions/overview/)
-* [Helm Charts](https://github.com/kubernetes/helm/blob/master/docs/charts.md)
+* [Helm Charts](https://helm.sh/docs/topics/charts/)
 * [KPM Packages](https://github.com/coreos/kpm/blob/master/Documentation/create_packages.md)
 * [Docker Compose Files](https://docs.docker.com/compose/)
 * [Docker Distributed Application Bundles](https://docs.docker.com/compose/bundles/)
